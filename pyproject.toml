@@ -1,0 +1,27 @@
+[project]
+name = "ab-test-analyzer"
+version = "0.1.0"
+description = "AI-Native A/B Test Analyzer"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2",
+    "scipy>=1.14",
+    "matplotlib>=3.9",
+    "openai>=1.30",
+    "google-genai>=2.10.0",
+    "python-dotenv>=1.0.1",
+    "gspread>=6.0.0",
+    "google-auth>=2.0.0"
+]
+
+[project.scripts]
+teste-ab = "src.cli_chat:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[tool.setuptools.packages.find]
+include = ["src", "src.*"]
