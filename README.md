@@ -320,12 +320,8 @@ O projeto segue a filosofia **AI-Native** pura:
 ## 📸 Screenshots
 
 ### Tela do Assistente Conversacional (`teste-ab`)
-*(Espaço reservado para screenshot da interface interativa de chat no terminal)*
-
-### Relatório Gerado em Markdown
-*(Espaço reservado para screenshot do relatório em markdown renderizado no editor)*
-
+![Terminal Screenshot](images/teste-ab.png)
 ### Gráfico de Variante Gerado
-*(Espaço reservado para screenshot do gráfico de barras gerado na pasta output/plots/)*
+![Grafico de Variante](images/graficos.png)
 
 ---
